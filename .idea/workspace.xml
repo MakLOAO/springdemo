@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8122447d-6a06-41d1-9fbd-86db32f43e5b" name="Default" comment="" />
+    <list default="true" id="8122447d-6a06-41d1-9fbd-86db32f43e5b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/biz/MoocBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/Fit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/FitImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/MoocAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/biz/AspectBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mkl/test/aop/TestAOPSchemaAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mkl/test/aop/aspectj/TestAspectJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestInjection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/beanannotation/TestInjection.java">
+      <file leaf-file-name="spring-aop-schema-advice.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="494">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoocAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,49 +50,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJavabased.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/beanannotation/TestJavabased.java">
+      <file leaf-file-name="MoocMethod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="312">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1077#1078#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsrService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/jsr/JsrService.java">
+      <file leaf-file-name="TestAspectJ.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/aop/aspectj/TestAspectJ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="179">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeanAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/BeanAnnotation.java">
+      <file leaf-file-name="MoocBiz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/biz/MoocBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="364">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/javabased/TestStore.java">
+      <file leaf-file-name="Fit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/Fit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FitImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/FitImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -75,24 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringStore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/javabased/StringStore.java">
+      <file leaf-file-name="TestAOPSchemaAdvice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/aop/TestAOPSchemaAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-              <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/javabased/StoreConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="188">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,34 +118,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MoocAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/MoocAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InjectionServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/injection/InjectionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestJsr.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/beanannotation/TestJsr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="32">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-aop-aspectj.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -137,10 +151,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="XML Properties File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -150,21 +164,12 @@
       <find>Before</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mkl/ioc/interfaces/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/Resources/spirng-ioc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkl/ioc/injection/InjectionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkl/ioc/injection/InjectionDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkl/ioc/injection/InjectionDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/ioc/interfaces/TestOneInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mkl/bean/BeanScope.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-beanscope.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/bean/TestBeanScope.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-ioc.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/lifecycle/TestBeanLifeCycle.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-lifecycle.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkl/lifecycle/BeanLifeCycle.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/base/UnitTestBase.java" />
@@ -202,8 +207,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/javabased/StoreConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/jsr/JsrDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/beanannotation/TestJsr.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/jsr/JsrService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/MoocAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/biz/AspectBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/Fit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/biz/FitImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/aop/TestAOPSchemaAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/FitImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/aop/aspectj/TestAspectJ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/biz/MoocBiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocAspect.java" />
       </list>
     </option>
   </component>
@@ -220,6 +237,11 @@
         <option name="mavenHome" value="E:/apache-maven-3.6.0" />
         <option name="userSettingsFile" value="E:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -241,19 +263,22 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,7 +319,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mkl" type="462c0819:PsiDirectoryNode" />
-              <item name="beanannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -303,8 +328,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mkl" type="462c0819:PsiDirectoryNode" />
-              <item name="beanannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="jsr" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mkl" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -334,13 +377,22 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="beanannotation" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,23 +429,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJsr.testSave">
+  <component name="RunManager" selected="JUnit.TestAspectJ.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestInjection.testMultiBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAOPSchemaAdvice.testBiz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mkl.test.beanannotation.*" />
+          <option name="PATTERN" value="com.mkl.test.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mkl.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.mkl.test.beanannotation.TestInjection" />
-      <option name="METHOD_NAME" value="testMultiBean" />
+      <option name="PACKAGE_NAME" value="com.mkl.test.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.mkl.test.aop.TestAOPSchemaAdvice" />
+      <option name="METHOD_NAME" value="testBiz" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -404,65 +456,65 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestJavabased.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAOPSchemaAdvice.testFit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mkl.test.beanannotation.*" />
+          <option name="PATTERN" value="com.mkl.test.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mkl.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.mkl.test.beanannotation.TestJavabased" />
+      <option name="PACKAGE_NAME" value="com.mkl.test.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.mkl.test.aop.TestAOPSchemaAdvice" />
+      <option name="METHOD_NAME" value="testFit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestAOPSchemaAdvice.testInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mkl.test.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mkl.test.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.mkl.test.aop.TestAOPSchemaAdvice" />
+      <option name="METHOD_NAME" value="testInit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestAspectJ.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mkl.test.aop.aspectj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mkl.test.aop.aspectj" />
+      <option name="MAIN_CLASS_NAME" value="com.mkl.test.aop.aspectj.TestAspectJ" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestJavabased.testG" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mkl.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mkl.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.mkl.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" value="testG" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestJavabased.testMyDriverManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mkl.test.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mkl.test.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="com.mkl.test.beanannotation.TestJavabased" />
-      <option name="METHOD_NAME" value="testMyDriverManager" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -535,19 +587,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestInjection.testMultiBean" />
-      <item itemvalue="JUnit.TestJavabased.test" />
-      <item itemvalue="JUnit.TestJavabased.testMyDriverManager" />
-      <item itemvalue="JUnit.TestJavabased.testG" />
       <item itemvalue="JUnit.TestJsr.testSave" />
+      <item itemvalue="JUnit.TestAOPSchemaAdvice.testBiz" />
+      <item itemvalue="JUnit.TestAOPSchemaAdvice.testInit" />
+      <item itemvalue="JUnit.TestAOPSchemaAdvice.testFit" />
+      <item itemvalue="JUnit.TestAspectJ.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAspectJ.test" />
+        <item itemvalue="JUnit.TestAOPSchemaAdvice.testFit" />
+        <item itemvalue="JUnit.TestAOPSchemaAdvice.testInit" />
+        <item itemvalue="JUnit.TestAOPSchemaAdvice.testBiz" />
         <item itemvalue="JUnit.TestJsr.testSave" />
-        <item itemvalue="JUnit.TestJavabased.testG" />
-        <item itemvalue="JUnit.TestJavabased.testMyDriverManager" />
-        <item itemvalue="JUnit.TestJavabased.test" />
-        <item itemvalue="JUnit.TestInjection.testMultiBean" />
       </list>
     </recent_temporary>
   </component>
@@ -567,47 +619,49 @@
       <workItem from="1557965447768" duration="3006000" />
       <workItem from="1558049825256" duration="6554000" />
       <workItem from="1558142341439" duration="1196000" />
-      <workItem from="1558313569681" duration="9654000" />
+      <workItem from="1558313569681" duration="15112000" />
+      <workItem from="1558398254842" duration="4469000" />
+      <workItem from="1558485878423" duration="7679000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 35m 23s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAOPSchemaAdvice_testFit - 2019.05.21 at 14h 51m 53s.xml">
+      <configuration name="TestAOPSchemaAdvice.testFit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 36m 44s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 14h 56m 55s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 38m 29s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 14h 57m 42s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 41m 03s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 07m 20s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 41m 26s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 16m 45s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 42m 48s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 29m 58s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJavabased_testG - 2019.05.20 at 12h 43m 20s.xml">
-      <configuration name="TestJavabased.testG" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 35m 17s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJsr_testSave - 2019.05.20 at 15h 38m 52s.xml">
-      <configuration name="TestJsr.testSave" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 42m 08s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJsr_testSave - 2019.05.20 at 15h 39m 28s.xml">
-      <configuration name="TestJsr.testSave" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 42m 33s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestJsr_testSave - 2019.05.20 at 15h 41m 33s.xml">
-      <configuration name="TestJsr.testSave" configurationId="JUnit" />
+    <history-entry file="TestAspectJ_test - 2019.05.22 at 15h 49m 28s.xml">
+      <configuration name="TestAspectJ.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52335000" />
+    <option name="totallyTimeSpent" value="69941000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-12" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -627,8 +681,8 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2901169" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29042554" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -663,83 +717,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/apache-maven-3.6.0/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/UrlResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/apache-maven-3.6.0/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/AbstractFileResolvingResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/apache-maven-3.6.0/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/AbstractResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/apache-maven-3.6.0/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/Resource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/resource/MoocResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-resource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aware.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aware/MoocBeanName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aware/MoocApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/resource/TestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-autowiring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -856,9 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,10 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,9 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,9 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="590">
           <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,13 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,11 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,17 +952,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/javabased/StoreConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
+        <state relative-caret-position="988">
           <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/injection/InjectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/jsr/JsrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1025,28 +984,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="754">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/injection/InjectionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/biz/AspectBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="260">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/beanannotation/jsr/JsrService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/FitImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="52">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/Fit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/schema/advice/MoocAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-schema-advice.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-aop-aspectj.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/aop/TestAOPSchemaAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/MoocAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mkl/aop/aspectj/biz/MoocBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/aop/aspectj/TestAspectJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
