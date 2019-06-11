@@ -4,6 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
         default-autowire="byType">
 
+
+
     <bean id="autoWiringService" class="com.mkl.autowiring.AutoWiringService" />
 
     <bean id="autoWiringDAO" class="com.mkl.autowiring.AutoWiringDAO" />

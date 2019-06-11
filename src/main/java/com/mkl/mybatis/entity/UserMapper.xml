@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mkl.mybatis.UserMapper">
+    <select id="selectUser" resultType="com.mkl.mybatis.entity.User">
+        SELECT * FROM user
+    </select>
+    <insert id="add" parameterType="User">
+        INSERT INTO user(name, password) VALUES (#{name}, #{password})
+    </insert>
+    <!-- DELETES故意写错的，为了测试事务 -->
+    <delete id="remove">
+        DELETES FROM user WHERE id = #{id}
+    </delete>
+</mapper>
