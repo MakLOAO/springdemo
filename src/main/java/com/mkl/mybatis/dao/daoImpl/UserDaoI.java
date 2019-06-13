@@ -3,12 +3,15 @@ package com.mkl.mybatis.dao.daoImpl;
 import com.mkl.mybatis.dao.UserDao;
 import com.mkl.mybatis.entity.User;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class UserDaoI implements UserDao {
 
-    private SqlSessionTemplate sqlSession;
+    private SqlSessionTemplate sqlSessionTemplate;
 
     @Override
     public List<User> selectUser() {
@@ -18,10 +21,10 @@ public class UserDaoI implements UserDao {
 //        user.setPassword("5671");
 //        sqlSession.insert("com.mkl.mybatis.UserMapper.add", user);
 //        sqlSession.delete("com.mkl.mybatis.UserMapper.remove", 1);
-        return sqlSession.selectList("com.mkl.mybatis.UserMapper.selectUser");
+        return sqlSessionTemplate.selectList("com.mkl.mybatis.UserMapper.selectUser");
     }
 
-    public void setSqlSession(SqlSessionTemplate sqlSession) {
-        this.sqlSession = sqlSession;
+    public void setSqlSession(SqlSessionTemplate sqlSessionTemplate) {
+        this.sqlSessionTemplate = sqlSessionTemplate;
     }
 }

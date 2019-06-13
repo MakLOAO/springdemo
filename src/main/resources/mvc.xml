@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- SpringMVC注解开发 -->
 
@@ -14,5 +15,31 @@
     </bean>
 
     <context:component-scan base-package="com.mkl.Controller" />
+
+    <!-- 拦截器的配置 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- mapping拦截某一路径，比如/admin/* -->
+            <!-- /**表示该路径下所有路径及其子路径
+                如果是/admin/*，拦截的是/admin/add,/admin/list，而/admin/user/add之类的孙子路径不能拦截
+            -->
+            <!-- <mvc:mapping path="/**"/> -->
+            <mvc:mapping path="/admin/*" />
+            <bean class="com.mkl.interceptor.MyInterceptor" />
+        </mvc:interceptor>
+
+        <!-- 登陆拦截器 -->
+        <mvc:interceptor>
+            <mvc:mapping path="/**" />
+            <bean class="com.mkl.interceptor.LoginInterceptor" >
+                <property name="allowedPass">
+                    <list>
+                        <value>index.do</value>
+                        <value>login.do</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>

@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class InjectionServiceImpl implements InjectionService {
 
-    //@Autowired
+    @Autowired
     private InjectionDAO injectionDAO;
 
-    @Autowired
+    //@Autowired
     public InjectionServiceImpl(InjectionDAO injectionDAO) {
         this.injectionDAO = injectionDAO;
     }
