@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -13,10 +14,22 @@ import java.util.Map;
 public class TestJedis {
     JedisPool pool;
     Jedis jedis;
+    JedisPoolConfig poolConfig = new JedisPoolConfig();
 
     @Before
     public void setUp() {
-        jedis = new Jedis("localhost");
+        // 最大空闲数
+        poolConfig.setMaxIdle(50);
+        // 最大连接数
+        poolConfig.setMaxTotal(100);
+        // 最大等待毫秒数
+        poolConfig.setMaxWaitMillis(20000);
+        // 使用配置创建连接池
+        pool = new JedisPool(poolConfig, "localhost");
+        // 从连接池中获取单个连接
+        jedis = pool.getResource();
+        // 如果需要密码
+        //jedis.auth("password");
     }
 
     @Test

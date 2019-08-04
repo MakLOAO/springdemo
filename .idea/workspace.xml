@@ -8,9 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8122447d-6a06-41d1-9fbd-86db32f43e5b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="137" column="17" lean-forward="true" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -98,15 +98,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestJedis.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestJedis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="243">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mkl/Controller/JSONController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jsontest.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -407,32 +405,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestJedis.test">
+  <component name="RunManager" selected="JUnit.TestJedis.testBasicString">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="TestJedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mkl.test.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.mkl.test.redis" />
-      <option name="MAIN_CLASS_NAME" value="com.mkl.test.redis.TestJedis" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="TestJedis.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
@@ -447,6 +422,29 @@
       <option name="PACKAGE_NAME" value="com.mkl.test.redis" />
       <option name="MAIN_CLASS_NAME" value="com.mkl.test.redis.TestJedis" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestJedis.testBasicString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mkl.test.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mkl.test.redis" />
+      <option name="MAIN_CLASS_NAME" value="com.mkl.test.redis.TestJedis" />
+      <option name="METHOD_NAME" value="testBasicString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -705,19 +703,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9" />
-      <item itemvalue="JUnit.TestJedis" />
       <item itemvalue="JUnit.TestJedis.testMap" />
       <item itemvalue="JUnit.TestJedis.testList" />
       <item itemvalue="JUnit.TestJedis.testSet" />
       <item itemvalue="JUnit.TestJedis.test" />
+      <item itemvalue="JUnit.TestJedis.testBasicString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJedis.testBasicString" />
+        <item itemvalue="JUnit.TestJedis.testMap" />
         <item itemvalue="JUnit.TestJedis.test" />
         <item itemvalue="JUnit.TestJedis.testSet" />
         <item itemvalue="JUnit.TestJedis.testList" />
-        <item itemvalue="JUnit.TestJedis.testMap" />
-        <item itemvalue="JUnit.TestJedis" />
       </list>
     </recent_temporary>
   </component>
@@ -759,7 +757,7 @@
       <workItem from="1560385766714" duration="23335000" />
       <workItem from="1560473235732" duration="11948000" />
       <workItem from="1560735163791" duration="591000" />
-      <workItem from="1564904908161" duration="1398000" />
+      <workItem from="1564904908161" duration="3271000" />
     </task>
     <task id="LOCAL-00001" summary="学完慕课网上Spring之后的代码">
       <created>1558528483748</created>
@@ -810,22 +808,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560572982133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加了TestJedis">
+      <created>1564906333209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564906333209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 15h 54m 29s.xml">
-      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 15h 55m 45s.xml">
-      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 15h 56m 17s.xml">
-      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 15h 56m 48s.xml">
-      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestJedis - 2019.08.04 at 16h 00m 00s.xml">
       <configuration name="TestJedis" configurationId="JUnit" />
     </history-entry>
@@ -844,9 +837,21 @@
     <history-entry file="TestJedis_test - 2019.08.04 at 16h 08m 06s.xml">
       <configuration name="TestJedis.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 20h 01m 33s.xml">
+      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_testMap - 2019.08.04 at 20h 02m 01s.xml">
+      <configuration name="TestJedis.testMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 20h 03m 41s.xml">
+      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_testBasicString - 2019.08.04 at 20h 06m 08s.xml">
+      <configuration name="TestJedis.testBasicString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177631000" />
+    <option name="totallyTimeSpent" value="179504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
@@ -902,7 +907,8 @@
     <MESSAGE value="SpringMVC2 文件上传" />
     <MESSAGE value="SpringMVC3 整合，拦截器，mybatis的接口开发等" />
     <MESSAGE value="SpringMVC4 AJAX&amp;JSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringMVC4 AJAX&amp;JSON" />
+    <MESSAGE value="添加了TestJedis" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了TestJedis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1260,22 +1266,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="129" column="9" lean-forward="true" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+        <state relative-caret-position="243">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/mkl/test/redis/TestJedis.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="137" column="17" lean-forward="true" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
         </state>
       </provider>
     </entry>
