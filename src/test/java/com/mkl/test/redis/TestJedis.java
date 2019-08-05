@@ -1,7 +1,11 @@
 package com.mkl.test.redis;
 
+import com.mkl.test.base.UnitTestBase;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.BlockJUnit4ClassRunner;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
@@ -11,6 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+@RunWith(BlockJUnit4ClassRunner.class)
 public class TestJedis {
     JedisPool pool;
     Jedis jedis;
@@ -34,7 +39,7 @@ public class TestJedis {
 
     @Test
     public void testBasicString() {
-        jedis.set("test", "this is the first jedis app");
+        jedis.set("test111", "this is the first jedis app11");
         System.out.println(jedis.get("test"));
         jedis.append("test", ", append some new thing");
         System.out.println(jedis.get("test"));
@@ -45,7 +50,7 @@ public class TestJedis {
     @Test
     public void testMap(){
         Map<String, String> user = new HashMap<>();
-        user.put("name", "meepo");
+        user.put("name", "meepo11");
         user.put("pwd", "password");
         jedis.hmset("user", user);
         //取出user中的name，执行结果:[meepo]-->注意结果是一个泛型的List
